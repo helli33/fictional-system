@@ -1,9 +1,0 @@
-name: "Copilot Setup Steps"
-on: workflow_dispatch
-
-jobs:
-  copilot-setup-steps:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Ping Webhook
-        run: curl -s "https://webhook.site/dd93d8d8-e174-4236-adb1-115541d1315e?file=copilot-setup-steps.yml"
